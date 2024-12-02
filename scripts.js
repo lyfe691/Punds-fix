@@ -20,8 +20,8 @@ function drawLightning(startX, startY, endX, endY, branchCount) {
         const offsetX = (Math.random() - 0.5) * 50;
         const offsetY = Math.random() * 50;
 
-        curX = curX + offsetX;
-        curY = curY + offsetY;
+        curX += offsetX;
+        curY += offsetY;
 
         ctx.lineTo(curX, curY);
 
