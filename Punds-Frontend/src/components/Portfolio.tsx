@@ -10,7 +10,6 @@ import {
   HStack,
   Button,
   keyframes,
-  Link,
 } from '@chakra-ui/react'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
@@ -27,11 +26,6 @@ interface ProjectCardProps {
 const fadeIn = keyframes`
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
-`
-
-const shimmer = keyframes`
-  0% { background-position: -1000px 0; }
-  100% { background-position: 1000px 0; }
 `
 
 const ProjectCard = ({ title, description, image, tags, githubUrl, liveUrl, delay }: ProjectCardProps) => {

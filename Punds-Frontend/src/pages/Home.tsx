@@ -9,8 +9,6 @@ import {
   Icon,
   HStack,
   keyframes,
-  useToken,
-  Circle,
 } from '@chakra-ui/react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { Link as RouterLink } from 'react-router-dom'
